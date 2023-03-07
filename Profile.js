@@ -112,7 +112,7 @@ profileData["Maxim"] = {
 };
 profileData["Lautaro"] = {
 	nome : "Lauti",
-	indirizzo : '<a href="https://www.google.com/maps/place/Via+Pradasc+5,+6514+Sementina/">Via Pradasc 5, Sementina</a>',
+	indirizzo : '<a href="https://www.google.com/maps/place/Via+Pradasc+7,+6514+Sementina/">Via Pradasc 7, Sementina</a>',
 	orario : `
         <tr>
             <th class="hour"> 08:05 - 08:50 </th>
