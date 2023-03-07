@@ -1,6 +1,7 @@
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="Style.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="Script.js"> </script>
 
 <head>
   <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
@@ -14,24 +15,22 @@
 
 <body>
     
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-            <div class="dropdown-content">
-      			<a href="https://chat.whatsapp.com/DzmPpslQcnI4EvvP6m8eJW"> Chat WP</a>
-      			<a href="https://wa.me/%2B41796950575?text=%E2%9C%A7%EF%BD%A5%EF%BE%9F%3A%20*%E2%9C%A7%EF%BD%A5%EF%BE%9F%3A*%20%20Suggerimento%20per%20il%20MonthTag%20%20*%3A%EF%BD%A5%EF%BE%9F%E2%9C%A7*%3A%EF%BD%A5%EF%BE%9F%E2%9C%A7%0A(%E3%81%A5%EF%BD%A1%E2%97%95%E2%80%BF%E2%80%BF%E2%97%95%EF%BD%A1)%E3%81%A5%20%E2%99%A5%20Ricordate%2C%20i%20femboy%20non%20sono%20gay%20e%20max%20%C3%A8%20un%20furry%20%E2%8A%82(%E2%97%89%E2%80%BF%E2%97%89)%E3%81%A4"> Suggerimenti </a>
-      			<a href="#"> Regolamento </a>
-      			<a href="#"> Introduzione </a>
-            </div>
+  <div class="dropdown">
+    <button class="dropbtn">Menu &nbsp;<i class="fa fa-caret-down"></i></button></button>
+    <div class="dropdown-content">
+      <button class="dropdown-lazyness" onclick="Intro()"> Introduzione </button>
+      <button class="dropdown-lazyness" onclick="Regolamento()"> Regolamento </button>
+      <a href="https://chat.whatsapp.com/DzmPpslQcnI4EvvP6m8eJW"> Chat WP</a>
+      <a href="https://wa.me/%2B41796950575?text=%E2%9C%A7%EF%BD%A5%EF%BE%9F%3A%20*%E2%9C%A7%EF%BD%A5%EF%BE%9F%3A*%20%20Suggerimento%20per%20il%20MonthTag%20%20*%3A%EF%BD%A5%EF%BE%9F%E2%9C%A7*%3A%EF%BD%A5%EF%BE%9F%E2%9C%A7%0A(%E3%81%A5%EF%BD%A1%E2%97%95%E2%80%BF%E2%80%BF%E2%97%95%EF%BD%A1)%E3%81%A5%20%E2%99%A5%20Ricordate%2C%20i%20femboy%20non%20sono%20gay%20e%20max%20%C3%A8%20un%20furry%20%E2%8A%82(%E2%97%89%E2%80%BF%E2%97%89)%E3%81%A4"> Suggerimenti </a>
     </div>
+  </div>
   
     <ul>
         <li><a class="active" href="index.html"> Partecipanti </a></li>
-        <li><a href="Utilities.html"> Utilities </a></li>
-        <li><a href="Note.html"> Note </a></li>
         <li><a href="Mappa.html"> Mappa </a></li>
     </ul>
 	
-	<button class="backBtn" onclick="location.href = 'index.html'">⮈</button>
+	<button class="backBtn" onclick="location.href = 'index.html'"><i class="fa fa-caret-left"></i></button>
 
     <h1 id="casella_nome"></h1>
     <h2 id="casella_indirizzo"> Via di casa: </h2>

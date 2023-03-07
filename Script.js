@@ -4,3 +4,11 @@ function PopUpWindow() {
 
     open('/', 'test', params);
 }
+
+function Regolamento() {
+    alert("Qui Ema e` pigro in culo e non mi ha ancora mandato il regolamento aggiornato")
+}
+
+function Intro() {
+    alert("Qui sono pigro in culo io che non ho voglia di scrivere un'introduzione su cosa sia lmao")
+}

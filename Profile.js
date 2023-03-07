@@ -8,7 +8,7 @@ const profileData = {}
 profileData["Maxim"] = { 
 	nome : "Max",
 	indirizzo : '<a href="https://www.google.com/maps/place/Via+Caratti+14,+6500+Bellinzona/">Via Caratti 14, Bellinzona</a>',
-	orario : ` 
+	orario : `
         <tr>
             <th class="hour"> 08:05 - 08:50 </th>
             <th class="ingle"> Inglese - D171 </th>
@@ -106,7 +106,8 @@ profileData["Maxim"] = {
             <th class="pause"> </th>
             <th class="pause"> </th>
             <th class="pause"> </th>
-        </tr>`,
+        </tr>
+	`,
 	classe : "4G"
 };
 profileData["Lautaro"] = {
@@ -204,13 +205,14 @@ profileData["Lautaro"] = {
         </tr>
 
         <tr>
-            <th> 16:35 - 17:20</th>
+            <th class="hour"> 16:35 - 17:20</th>
             <th class="pause"></th>
             <th class="pause"></th>
             <th class="orcl"> OrCl </th>
             <th class="pause"></th>
             <th class="pause"></th>
-        </tr>`, 
+        </tr>
+        `, 
 	classe : "4D"
 };
 profileData["Febo"] = {
@@ -475,7 +477,7 @@ profileData["Emanuel"] = {
             <th class="hour"> 12:20 - 13:05 </th>
             <th class="pause"> </th>
             <th class="pause"> </th>
-            <th class="pause"> OrCl - B128 </th>
+            <th class="orcl"> OrCl - B128 </th>
             <th class="pause"> </th>
             <th class="pause"> </th>
         </tr>
@@ -528,7 +530,7 @@ profileData["Emanuel"] = {
 };
 profileData["Philip"] = {
 	nome : "Philip",
-	indirizzo : "",
+	indirizzo : '<a href="https://goo.gl/maps/zcYowkEN1mQ5z2J78">Moleno 4, Moleno</a>',
 	orario : `
           <tr>
               <th class="hour"> 08:05 - 08:50 </th>
@@ -843,7 +845,7 @@ profileData["Diellon"] = {
 };
 profileData["Luigi"] = {
 	nome : "Luigi",
-	indirizzo : "",
+	indirizzo : '<a href="https://goo.gl/maps/1QbxShN3fs51G3n99">Via Lugano 22, 6500 Bellinzona</a>',
 	orario : `
         <tr>
             <th class="hour"> 08:05 - 08:50 </th>

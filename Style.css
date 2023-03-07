@@ -1,6 +1,8 @@
 
 body {
   background-color: #292828;
+  color: orangered;
+  font-family: Helvetica;
 }
 
 h1, h2 {
@@ -67,10 +69,18 @@ li a:hover:not(.active) {
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+}
+
+.dropdown-lazyness {
+  background-color: orangered;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  border: none;
 }
 
 .dropdown-content a:hover {background-color: #a12b00;}
@@ -108,8 +118,10 @@ li a:hover:not(.active) {
     color: white;
     background-color: orangered;
     box-shadow: 0 16px 64px 0 rgba(0, 0, 0, 0.2);
-    width:  50px;
+    width:  40px;
+	height: 40px;
     margin: auto;
+	margin-left: -80;
     margin-bottom: 10px;
     margin-top: 30px;
     position: relative;
@@ -131,28 +143,117 @@ button:hover, a:hover {
     height: 450%;
   }
 
+/* table, th, td { */
+/*     border:1px solid rgb(255, 255, 255); */
+/*     color: orangered; */
+/*   } */
 table, th, td {
-    border:1px solid rgb(255, 255, 255);
-    color: orangered;
+  border-collapse: collapse;
+  border:1px solid rgb(255, 255, 255);
   }
   
 .pause {
-    border: transparent;
+  border: transparent;
+  background-color: black;
   }
 
-.ingle {
+.hour {
+  background-color: black;
+  color: white;
+}
 
+.day {
+  background-color: black;
+  color: white;
+}
+
+.ingle {
+  background-color: rgb(233, 233, 16);
+  color: black;
 }
 
 .tede {
-
+  background-color: green;
+  color: black;
 }
 
 .fra {
-
+  background-color: aqua;
+  color: black;
 }
 
 .ita {
-
+  background-color: chartreuse;
+  color: black;
 }
 
+.os {
+  background-color: darkmagenta;
+  color: black;
+}
+
+.oc {
+  background-color:brown;
+  color: black;
+}
+
+.mate {
+  background-color: red;
+  color: black;
+}
+
+.happy {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+.stor {
+  background-color:saddlebrown ;
+  color: black;
+}
+
+.geo{
+  background-color: blue;
+  color: black;
+}
+
+.filo {
+  background-color: darkslateblue;
+  color: black;
+}
+
+.ecdi {
+  background-color: orange;
+  color: black;
+}
+
+.orcl {
+  background-color: gray;
+  color: black;
+}
+
+.ginna {
+  background-color: deeppink;
+  color: black;
+}
+
+.bio {
+  background-color: aquamarine;
+  color: black;
+}
+
+.fisica {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.lam {
+  background-color: darkslategrey;
+  color: black;
+}
+
+.anno {
+  font-weight: bold;
+  color: orangered;
+  background-color: black;
+}
